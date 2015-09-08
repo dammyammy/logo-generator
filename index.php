@@ -1,6 +1,6 @@
 <?php 
     include 'views/header.php';
-    $names = array('RasBanXclusive', 'TechCompanion', 'SoftRunner')
+    $names = array('RasBanXclusive', 'TechCompanion', 'SoftRunner');
 
     $name = $names[mt_rand(0,2)]; 
 ?>
