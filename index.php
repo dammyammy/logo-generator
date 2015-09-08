@@ -1,6 +1,8 @@
 <?php 
     include 'views/header.php';
-    $name = array('RasBanXclusive', 'TechCompanion', 'SoftRunner')[mt_rand(0,2)]; 
+    $names = array('RasBanXclusive', 'TechCompanion', 'SoftRunner')
+
+    $name = $names[mt_rand(0,2)]; 
 ?>
 
 <div class="inner cover">
