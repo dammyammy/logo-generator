@@ -1,0 +1,20 @@
+<option value="cabin">Cabin (Normal 400)</option>
+<option value="archivo" selected="selected">Archivo Narrow (Normal 400)</option>
+<option value="play">Play (Normal 400)</option>
+<option value="pacifico">Pacifico (Normal 400)</option>
+<option value="roboto">Roboto Condensed (Normal 400)</option>
+<option value="montserrat">Montserrat (Normal 400)</option>
+<option value="noto">Noto Sans (Normal 400)</option>
+<option value="lobster">Lobster (Normal 400)</option>
+<option value="fjalla">Fjalla One (Normal 400)</option>
+<option value="josefin">Josefin Sans (Normal 400)</option>
+<option value="signika">Signika (Normal 400)</option>
+<option value="ubuntu">Ubuntu Condensed (Normal 400)</option>
+<option value="maven">Maven Pro (Normal 400)</option>
+<option value="exo2">Exo 2 (Normal 400)</option>
+<option value="karla">Karla (Normal 400)</option>
+<option value="exo">Exo (Normal 400)</option>
+<option value="dancing">Dancing Script (Normal 400)</option>
+<option value="righteous">Righteous (Normal 400)</option>
+<option value="chewy">Chewy (Normal 400)</option>
+<option value="courgette">Courgette (Normal 400)</option>
