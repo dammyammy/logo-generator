@@ -20,7 +20,7 @@
 	<link rel="stylesheet" href="../public/css/app.css">
 </head>
 <body>
-<?php include_once("analyticstracking.php") ?>
+<?php include_once("views/analytics.php") ?>
 
 <div class="site-wrapper">
 
