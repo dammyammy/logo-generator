@@ -1,10 +1,12 @@
 <?php 
-
-include 'views/header.php'; 
-
 $img = isset($_POST['img_val']) ? $_POST['img_val'] : false;
 
-if ($img == false) return header('Location: /');
+if ($img == false) { 
+	return header('Location: /') ;
+	die();
+}
+
+include 'views/header.php'; 	
 ?>
 
 <h1 class="cover-heading">Here is your awesome logo ready for download.</h1>
