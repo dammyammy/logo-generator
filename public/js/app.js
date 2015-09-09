@@ -18,7 +18,6 @@
 
 	baseColor.on('change', function () {
 		$('#logo-output > p').css('color', baseColor.val());
-
 		alertify.success('Base Color Successfully Changed to ' + baseColor.val());
 	});
 
@@ -58,11 +57,9 @@
 		});
 
 		alertify.success('<i class="fa fa-spinner fa-spin"></i> Please Wait... ');
-		
 	});
 
 	font.bind('change keyup', function () {
-
 		switch(font.val()) {
 		    case 'cabin':
 		        $('#logo-output > p').css('font-family', "'Cabin', sans-serif");
