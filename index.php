@@ -71,7 +71,7 @@
     <div class="row">
         <p class="lead">
             <button id="preview" type="button" class="btn btn-lg btn-max">Preview Logo <i class="fa fa-arrow-circle-right"></i></button>
-            <form method="POST" enctype="multipart/form-data" action="download.php" id="downloader">
+            <form method="POST" enctype="multipart/form-data" action="download" id="downloader">
                 <input type="hidden" name="img_val" id="img_val" value="" />
             </form>
         </p>
