@@ -1,5 +1,5 @@
 <?php 
-    include 'views/header.php';
+    include_once 'views/header.php';
     $names = array('RasBanXclusive', 'TechCompanion', 'SoftRunner');
 
     $name = $names[mt_rand(0,2)]; 
@@ -28,13 +28,13 @@
                 <div class="col-md-3 col-sm-4 col-xs-6">
                     <label for="font">Font: </label><br>
                     <select  name="font" class="form-control" style="font-family:'FontAwesome', Arial;">
-                        <?php include 'views/fonts.php'; ?>
+                        <?php include_once 'views/fonts.php'; ?>
                     </select>
                 </div>
                 <div class="col-md-3 col-sm-2 col-xs-6">
                     <label for="icon">Icon: </label><br>
                     <select id="icon" name="icon" class="form-control" style="font-family:'FontAwesome', Arial;">
-                        <?php include 'views/icons.php'; ?>
+                        <?php include_once 'views/icons.php'; ?>
                     </select>
                 </div>
 
@@ -78,4 +78,4 @@
     </div>
 </div>
 
-<?php include 'views/footer.php'; ?>
+<?php include_once 'views/footer.php'; ?>

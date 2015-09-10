@@ -1,4 +1,7 @@
-<?php include 'views/header.php'; ?>
+<?php 
+require __DIR__ . '/vendor/autoload.php';
+include_once 'views/header.php'; 
+?>
 
 <div class="pt30 pb30"></div>
 
@@ -13,9 +16,9 @@
 
 <div class="row">
 	<p class="lead">
-		<a target="_blank" href="mailto:dami@ogunmoye.com" class="btn btn-lg btn-max">Send Dammy an Email <i class="fa fa-envelope"></i></a>
-		<a target="_blank" href="mailto:rasban037@yahoo.com" class="btn btn-lg btn-max">Send RasBan an Email <i class="fa fa-envelope"></i></a>
+		<?php echo mailto('dami@ogunmoye.com', 'Send Dammy an Email'); ?>
+		<?php echo mailto('rasban037@yahoo.com', 'Send RasBan an Email'); ?>
 	</p>
 </div>
 
-<?php include 'views/footer.php'; ?>
+<?php include_once 'views/footer.php'; ?>

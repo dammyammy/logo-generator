@@ -4,5 +4,10 @@
     "keywords": ["Logo Generator"],
     "license": "MIT",
     "type": "project",
-    "author": ""
+    "author": "",
+    "autoload": {
+    	"files": [
+    		"src/helpers.php"
+    	]
+    }
 }

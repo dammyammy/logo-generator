@@ -1,4 +1,4 @@
-<?php include 'views/header.php'; ?>
+<?php include_once 'views/header.php'; ?>
 
 <div class="pt30 pb30"></div>
 
@@ -20,4 +20,4 @@
 	</p>
 </div>
 
-<?php include 'views/footer.php'; ?>
+<?php include_once 'views/footer.php'; ?>

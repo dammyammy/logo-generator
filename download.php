@@ -6,7 +6,7 @@ if ($img == false) {
 	die();
 }
 
-include 'views/header.php'; 	
+include_once 'views/header.php'; 	
 ?>
 
 <h1 class="cover-heading">Here is your awesome logo ready for download.</h1>
@@ -47,4 +47,4 @@ include 'views/header.php';
 	<!--End mc_embed_signup-->
 </div>
 
-<?php include 'views/footer.php'; ?>
+<?php include_once 'views/footer.php'; ?>

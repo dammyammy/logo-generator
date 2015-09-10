@@ -1,0 +1,17 @@
+humans.txt
+
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    <Damilola Ogunmoye> -- <Developer> -- <@DOsAHandle>
+    <Rasak Banjo> -- <Developer> -- <@RasBanXclusive>
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3
+    jQuery, PHP
+    HTML2Canvas, AlertifyJS
+    Bootstrap 3, FontAwesome
+    Google Web Fonts

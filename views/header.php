@@ -33,9 +33,9 @@
               <h3 class="masthead-brand">Logo Generator <i class="fa fa-paper-plane"></i></h3>
               <nav>
                 <ul class="nav masthead-nav">
-                  <li <?php echo ($_SERVER['REQUEST_URI'] == '/') ? ' class="active"': '';  ?> ><a href="/">Home</a></li>
-                  <li <?php echo ($_SERVER['REQUEST_URI'] == '/docs.php') ? ' class="active"': '';  ?> ><a href="./docs.php">Docs</a></li>
-                  <li <?php echo ($_SERVER['REQUEST_URI'] == '/contact.php') ? ' class="active"': '';  ?> ><a href="./contact.php">Contact</a></li>
+                  <li <?php echo ($_SERVER['REQUEST_URI'] ==  '/') ? ' class="active"': '';  ?> ><a href="/">Home</a></li>
+                  <li <?php echo (strpos($_SERVER['REQUEST_URI'], 'docs') == 1) ? ' class="active"': '';  ?> ><a href="./docs">Docs</a></li>
+                  <li <?php echo (strpos($_SERVER['REQUEST_URI'], 'contact') == 1) ? ' class="active"': '';  ?> ><a href="./contact">Contact</a></li>
                 </ul>
               </nav>
             </div>
