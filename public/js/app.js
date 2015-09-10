@@ -10,7 +10,7 @@
 		$('#icon-output').html('<i class="icon fa ' + icon.val() + '"></i>' );
 		$('#icon-output > i.icon').css('color', iconColor.val());
 	});
-9
+
 	iconColor.on('change', function (event) {
 		$('#icon-output > i.icon').css('color', iconColor.val());
 		alertify.success('Icon Color Successfully Changed to ' + iconColor.val());
@@ -55,76 +55,11 @@
 	            document.getElementById("downloader").submit();
 		    }
 		});
-
 		alertify.success('<i class="fa fa-spinner fa-spin"></i> Please Wait... ');
 	});
 
 	font.bind('change keyup', function () {
-		switch(font.val()) {
-		    case 'cabin':
-		        $('#logo-output > p').css('font-family', "'Cabin', sans-serif");
-		        break;
-		    case 'archivo':
-		        $('#logo-output > p').css('font-family', "'Archivo Narrow', sans-serif");
-		        break;
-		     case 'play':
-		     	$('#logo-output > p').css('font-family', "'Play', sans-serif");
-		        break;
-		     case 'pacifico':
-		     	$('#logo-output > p').css('font-family', "'Pacifico', cursive");
-		        break;
-		     case 'roboto':
-		     	$('#logo-output > p').css('font-family', "'Roboto Condensed', sans-serif");
-		        break;
-		     case 'montserrat':
-		     	$('#logo-output > p').css('font-family', "'Montserrat', sans-serif");
-		        break;
-		     case 'noto':
-		     	$('#logo-output > p').css('font-family', "'Noto Sans', sans-serif");
-		        break;
-		     case 'lobster':
-		     	$('#logo-output > p').css('font-family', "'Lobster', cursive");
-		        break;
-		     case 'fjalla':
-		     	$('#logo-output > p').css('font-family', "'Fjalla One', sans-serif");
-		        break;
-		     case 'josefin':
-		     	$('#logo-output > p').css('font-family', "'Josefin Sans', sans-serif");
-		        break;
-		     case 'signika':
-		     	$('#logo-output > p').css('font-family', "'Signika', sans-serif");
-		        break;
-		     case 'ubuntu':
-		     	$('#logo-output > p').css('font-family', "'Ubuntu Condensed', sans-serif");
-		        break;
-		     case 'maven':
-		     	$('#logo-output > p').css('font-family', "'Maven Pro', sans-serif");
-		        break;
-		     case 'exo2':
-		     	$('#logo-output > p').css('font-family', "'Exo 2', sans-serif");
-		        break;
-		     case 'karla':
-		     	$('#logo-output > p').css('font-family', "'Karla', sans-serif");
-		        break;
-		     case 'exo':
-		     	$('#logo-output > p').css('font-family', "'Exo', sans-serif");
-		        break;
-		     case 'dancing':
-		     	$('#logo-output > p').css('font-family', "'Dancing Script', cursive");
-		        break;
-		     case 'righteous':
-		     	$('#logo-output > p').css('font-family', "'Righteous', cursive");
-		        break;
-		     case 'chewy':
-		     	$('#logo-output > p').css('font-family', "'Chewy', cursive");
-		        break;
-		     case 'courgette':
-		     	$('#logo-output > p').css('font-family', "'Courgette', cursive");
-		        break;
-		    default:
-		        $('#logo-output > p').css('font-family', "'Archivo Narrow', sans-serif");
-		        break;
-		}
+		$('#logo-output > p').css('font-family', font.val());
 		alertify.success('Font Successfully Changed!');
 	});
 })(jQuery);
